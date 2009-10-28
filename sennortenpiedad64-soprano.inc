@@ -31,8 +31,8 @@
 		a'' 1. ~  |
 		a'' 2 r4 e'' 2 e'' 4  |
 		%% 20
-		f'' 1.  |
-		g'' 2. a''  |
+		f'' 1. (  |
+		g'' 2. a'' )  |
 		e'' 1. ~  |
 		e'' 1 r2  |
 		a'' 2. a''  |
@@ -40,8 +40,8 @@
 		g'' 2. g''  |
 		a'' 1. ~  |
 		a'' 2 r4 e'' 2 e'' 4  |
-		f'' 1.  |
-		g'' 2. a''  |
+		f'' 1. (  |
+		g'' 2. a'' )  |
 		%% 30
 		e'' 1. ~  |
 		e'' 2 r r4 a''  |
@@ -56,18 +56,19 @@
 		g'' 2 g'' 4 g'' e'' g''  |
 		%% 40
 		a'' 2. a'' ~  |
-		a'' 1 g'' 4 a''  |
-		g'' 1.  |
+		a'' 1 g'' 4 ( a''  |
+		g'' 1. )  |
 		R1.  |
 		\bar "|."
 		} % transpose
 	} % Voice
 	\lyricsto "soprano" \new Lyrics \lyricmode {
-		"Se-" "-ñor," _ "Se-" "-ñor," "ten" "pie-" "dad" "de" "no-" "-so-" "tros." _
-		"Se-" "-ñor," _ "Se-" "-ñor," "ten" "pie-" "dad" "de" "no-" "-so-" "tros." _
-		"Cris-" "to" "ten" "pie-" "-dad" _ "de" "no-" "-so-" "-o-" "o-" "-tros." _
-		"Cris-" "to" "ten" "pie-" "-dad" _ "de" "no-" "-so-" "-o-" "o-" "-tros." _
-		"Se-" "-ñor," _ "Se-" "-ñor," "ten" "pie-" "dad" "de" "no-" "-so-" "tros." _
-		"Se-" "-ñor," _ "Se-" "-ñor," "ten" "pie-" "dad" "de" "no-" "-so-" "tros." _ _ _ _ 
+		"Se" -- "ñor," "Se" -- "ñor," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+		"Se" -- "ñor," "Se" -- "ñor," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+		"Cris" -- "to" "ten" "pie" -- "dad" "de" "no" -- "so" __ "tros."
+		"Cris" -- "to" "ten" "pie" -- "dad" "de" "no" -- "so" __ "tros."
+		"Se" -- "ñor," "Se" -- "ñor," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+		"Se" -- "ñor," "Se" -- "ñor," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+		"Oh." __
 	} % Lyrics 3
 >> % Staff ends
