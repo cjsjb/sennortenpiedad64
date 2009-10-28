@@ -11,6 +11,7 @@
 		\override MultiMeasureRest #'expand-limit = 1
 		\clef "treble"
 		R1.*4  |
+		\transpose c'' c' {
 		%% 5
 		r1 r4 a''  |
 		a'' 1 ~ a'' 4 a''  |
@@ -59,6 +60,7 @@
 		g'' 1.  |
 		R1.  |
 		\bar "|."
+		} % transpose
 	} % Voice
 	\lyricsto "soprano" \new Lyrics \lyricmode {
 		"Se-" "-ñor," _ "Se-" "-ñor," "ten" "pie-" "dad" "de" "no-" "-so-" "tros." _
