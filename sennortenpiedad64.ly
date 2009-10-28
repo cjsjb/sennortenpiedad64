@@ -20,6 +20,7 @@ globalTempo = {
 		% force offset of colliding notes in chords:
 		\override Score.NoteColumn #'force-hshift = #1.0
 
+		\include "sennortenpiedad64-acordes.inc"
 		\include "sennortenpiedad64-soprano.inc"
 		\include "sennortenpiedad64-guitarra.inc"
 
