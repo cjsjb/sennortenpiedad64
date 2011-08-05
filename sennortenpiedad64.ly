@@ -22,12 +22,14 @@ globalTempo = {
 	\tempo 4 = 150  \skip 1.*43
 }
 \score {
-	\new StaffGroup <<
+	<<
 		% force offset of colliding notes in chords:
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "sennortenpiedad64-acordes.inc"
-		\include "sennortenpiedad64-soprano.inc"
+		\new StaffGroup <<
+			\include "sennortenpiedad64-soprano.inc"
+		>>
 		\include "sennortenpiedad64-guitarra.inc"
 
 	>> % notes
