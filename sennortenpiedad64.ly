@@ -30,7 +30,7 @@ globalTempo = {
 		\new StaffGroup <<
 			\include "sennortenpiedad64-soprano.inc"
 		>>
-		\include "sennortenpiedad64-guitarra.inc"
+		%\include "sennortenpiedad64-guitarra.inc"
 
 	>> % notes
 
