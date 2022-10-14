@@ -62,7 +62,7 @@
 		\bar "|."
 		} % transpose
 	} % Voice
-	\lyricsto "soprano" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "soprano" {
 		"Se" -- "ñor," "Se" -- "ñor," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
 		"Se" -- "ñor," "Se" -- "ñor," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
 		"Cris" -- "to" "ten" "pie" -- "dad" "de" "no" -- "so" __ "tros."
